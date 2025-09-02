@@ -1,124 +1,63 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vinila Jinny - Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      background: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background: #4a148c;
-      color: #fff;
-      padding: 20px 0;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-    nav {
-      margin-top: 10px;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #4a148c;
-      margin-bottom: 20px;
-    }
-    .card {
-      background: #fff;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
-    }
-    footer {
-      background: #4a148c;
-      color: #fff;
-      text-align: center;
-      padding: 15px 0;
-      margin-top: 30px;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dr. S. Vinila Jinny — Academic Profile</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-
-  <header>
-    <h1>Vinila Jinny</h1>
-    <p>Researcher | Educator | Developer</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header class="site-header">
+    <div class="container topbar">
+      <div>
+        <h1 class="title">Dr. S. Vinila Jinny</h1>
+        <p class="subtitle">Associate Professor (Grade‑2), Department of Software Systems, SCOPE, VIT Vellore</p>
+        <p class="subtitle"><a href="mailto:vinilajinny.s@vit.ac.in" style="color:#fff">vinilajinny.s@vit.ac.in</a> • +91‑9489283126</p>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="education.html">Education & Experience</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="activities.html">Activities</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <div class="card">
-      <p>Hello! I’m <strong>Vinila Jinny</strong>, an academic and researcher passionate about 
-      Computer Science, AI, and interdisciplinary innovations. I work at VIT Vellore, 
-      focusing on teaching, mentoring, and advancing impactful research.</p>
-    </div>
-  </section>
+  <main class="container">
+    <section class="section">
+      <h2>About Me</h2>
+      <p class="lead">
+        I am an Associate Professor (Grade‑2) with the Department of Software Systems, School of Computer Science and Engineering (SCOPE), Vellore Institute of Technology (VIT), Vellore. 
+        I have over 16 years of academic experience. My teaching and research focus on
+        <strong>Data Mining</strong>, <strong>Network Security</strong>, and <strong>Image Processing</strong>. 
+        I have published 45+ international journal papers and 40+ conference papers, and have served as resource person, organizer, and committee member for numerous academic programs.
+      </p>
+      <p>
+        <span class="badge">Data Mining</span>
+        <span class="badge">Network Security</span>
+        <span class="badge">Image Processing</span>
+        <span class="badge">AI/ML</span>
+        <span class="badge">IoT in Healthcare</span>
+      </p>
+    </section>
 
-  <section id="research">
-    <h2>Research</h2>
-    <div class="card">
-      <p>My research interests include:</p>
-      <ul>
-        <li>Artificial Intelligence and Machine Learning</li>
-        <li>Medical Image Processing</li>
-        <li>IoT and Smart Healthcare Systems</li>
-        <li>Data Analytics and Optimization</li>
+    <section class="section">
+      <h2>Quick Links</h2>
+      <ul class="list">
+        <li>Google Scholar: <a href="https://scholar.google.com/citations?user=MdMFua8AAAAJ&hl=en" target="_blank" rel="noopener">View profile</a></li>
+        <li>VIT Directory: <a href="https://vitdirectory.vit.ac.in/page/faculty/10269" target="_blank" rel="noopener">Faculty page</a></li>
+        <li>Email: <a href="mailto:vinilajinny.s@vit.ac.in">vinilajinny.s@vit.ac.in</a> | Phone: +91‑9489283126</li>
       </ul>
-    </div>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="card">
-      <h3>Multi-Disease Detection Using Brain MRI</h3>
-      <p>Developed deep learning models for multi-disease classification from MRI and DICOM datasets.</p>
-    </div>
-    <div class="card">
-      <h3>Smart IoT Framework for Healthcare</h3>
-      <p>Created an intelligent IoT-based system to monitor patient health metrics and ensure early detection of anomalies.</p>
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <div class="card">
-      <p>Email: <a href="mailto:vinilajinny.s@vit.ac.in">vinilajinny.s@vit.ac.in</a></p>
-      <p>GitHub: <a href="https://github.com/VinilaJ" target="_blank">github.com/VinilaJ</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com" target="_blank">Your LinkedIn Profile</a></p>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2025 Vinila Jinny. All Rights Reserved.</p>
+    <div class="container">
+      <small>© 2025 Dr. S. Vinila Jinny • Built with GitHub Pages</small>
+    </div>
   </footer>
-
 </body>
 </html>
